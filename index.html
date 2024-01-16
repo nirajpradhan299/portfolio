@@ -9,55 +9,6 @@
  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 
  <style>
-    /* Add styles for the carousel container */
-    /* .carousel-container {
-      width: 80%;
-      overflow: hidden;
-    } */
-
-    /* Add styles for the carousel sections */
-    /* .carousel {
-      display: flex;
-      transition: transform 0.5s ease;
-      position: relative;
-    } */
-
-    /* .carousel-section {
-      flex: 0 0 100%;
-      text-align: left;
-      padding: 20px;
-      box-sizing: border-box;
-    } */
-
-  /* Add styles for the carousel indicators */
-  /* .slick-dots {
-    position: absolute;
-    bottom: 20px; /* Adjust the distance from the bottom */
-    /* list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-  } */ 
-
-  /* .slick-dots li {
-    margin: 0 5px; /* Adjust the space between indicators */
-  /* } */ 
-
-  /* .slick-dots li button {
-    font-size: 18px; /* Adjust the font size */
-    /* color: #fff; Indicator color */
-    /* border: 2px solid #fff; Indicator border color */
-    /* border-radius: 50%; Make it round */
-    /* background-color: transparent; /* Transparent background */
-    /* cursor: pointer;
-  }  */
-
-  /* .slick-dots li.slick-active button {
-    background-color: #fff; /* Active indicator background color */
-    /* color: #000; Active indicator text color */
-  /* } */ 
-
   /* Add styles for the icon */
   .slick-prev, .slick-next {
   font-size: 2vw;
@@ -120,9 +71,6 @@
         <li><a href="#hero" class="nav-link scrollto active"><span>Home</span><i class="bx bx-home"></i> </a></li>
         <li><a href="#about" class="nav-link scrollto"><span>About</span><i class="bx bx-user"></i> </a></li>
         <li><a href="#resume" class="nav-link scrollto"><span>Resume</span><i class="bx bx-file-blank"></i> </a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><span>Portfolio</span><i class="bx bx-book-content"></i> </a></li>
-        <li><a href="#services" class="nav-link scrollto"><span>Services</span><i class="bx bx-server"></i> </a></li>
-        <li><a href="#contact" class="nav-link scrollto"><span>Contact</span><i class="bx bx-envelope"></i> </a></li>
       </ul>
     </nav><!-- .nav-menu -->
 
@@ -369,42 +317,6 @@
       </div>
 </section>
 
-
-
-
-
-<!-- <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-<script>
-  $(document).ready(function() {
-    // Set the initial index
-    let currentIndex = 0;
-
-    // Get the number of sections
-    const totalSections = $('.carousel-section').length;
-
-    // Handle the wheel event for the x-axis
-    $(window).on('wheel', function(event) {
-      // Check the direction of the scroll
-      if (event.originalEvent.deltaX > 0) {
-        // Scroll right, move to the next section
-        currentIndex = Math.min(currentIndex + 1, totalSections - 1);
-      } else {
-        // Scroll left, move to the previous section
-        currentIndex = Math.max(currentIndex - 1, 0);
-      }
-
-      // Update the carousel position
-      updateCarousel();
-    });
-
-    // Function to update the carousel position
-    function updateCarousel() {
-      const sectionWidth = $('.carousel-section').outerWidth();
-      const newPosition = -currentIndex * sectionWidth;
-      $('.carousel').css('transform', 'translateX(' + newPosition + 'px)');
-    }
-  });
-</script> -->
 
 
 
