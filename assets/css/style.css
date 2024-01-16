@@ -649,12 +649,12 @@ h6 {
 }
 #drone .blur-bg {
   backdrop-filter: blur(10px);
-  height: auto;
+  /* height: auto; */
   mix-blend-mode: difference;
   overflow: hidden;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-  height: 95vh;
+  height: 100%;
 }
 .white-font {
   font: white;
